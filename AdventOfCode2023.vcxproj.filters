@@ -14,10 +14,10 @@
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
     </Filter>
     <Filter Include="Source Files\c++">
-      <UniqueIdentifier>{c5b7c98b-12b9-4ea6-9e09-517e7578a3ea}</UniqueIdentifier>
+      <UniqueIdentifier>{33b68c8f-130e-42f3-953e-b70fe1eed915}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files\python">
-      <UniqueIdentifier>{5910e350-a911-4841-94c0-5263153c0679}</UniqueIdentifier>
+      <UniqueIdentifier>{276367a7-4dd4-4514-85b2-c7bc710d134f}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -28,6 +28,9 @@
       <Filter>Source Files\c++</Filter>
     </ClCompile>
     <ClCompile Include="day2.cpp">
+      <Filter>Source Files\c++</Filter>
+    </ClCompile>
+    <ClCompile Include="day4.cpp">
       <Filter>Source Files\c++</Filter>
     </ClCompile>
   </ItemGroup>
