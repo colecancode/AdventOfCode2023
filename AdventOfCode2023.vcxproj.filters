@@ -21,9 +21,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="template.cpp">
-      <Filter>Source Files\c++</Filter>
-    </ClCompile>
     <ClCompile Include="day1.cpp">
       <Filter>Source Files\c++</Filter>
     </ClCompile>
@@ -34,6 +31,15 @@
       <Filter>Source Files\c++</Filter>
     </ClCompile>
     <ClCompile Include="day5.cpp">
+      <Filter>Source Files\c++</Filter>
+    </ClCompile>
+    <ClCompile Include="day4.cpp">
+      <Filter>Source Files\c++</Filter>
+    </ClCompile>
+    <ClCompile Include="template.cpp">
+      <Filter>Source Files\c++</Filter>
+    </ClCompile>
+    <ClCompile Include="day6.cpp">
       <Filter>Source Files\c++</Filter>
     </ClCompile>
   </ItemGroup>
