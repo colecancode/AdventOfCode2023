@@ -43,4 +43,12 @@
       <Filter>Source Files\c++</Filter>
     </ClCompile>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="template.py">
+      <Filter>Source Files\python</Filter>
+    </None>
+    <None Include="day1.py">
+      <Filter>Source Files\python</Filter>
+    </None>
+  </ItemGroup>
 </Project>
