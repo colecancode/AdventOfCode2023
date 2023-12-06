@@ -4,11 +4,11 @@ using namespace std;
 #define FOR(i, s, e) for (int i=s; i<e; ++i)
 
 void part1() {
-
+	
 }
 
 void part2() {
-
+	
 }
 
 void main() {

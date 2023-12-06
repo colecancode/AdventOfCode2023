@@ -29,7 +29,7 @@ void part1() {
 		}
 		if (flag) ans += game;
 	}
-	cout << ans;
+	cout << ans << '\n';
 }
 
 void part2() {
@@ -50,7 +50,7 @@ void part2() {
 		}
 		ans += floor["red"] * floor["green"] * floor["blue"];
 	}
-	cout << ans;
+	cout << ans << '\n';
 }
 
 void main() {

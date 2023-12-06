@@ -10,13 +10,13 @@ void part1() {
 		for (char& c : line) {
 			if (isdigit(c)) {
 				if (!first)
-					first = c - '0';
-				last = c - '0';
+					first = c-'0';
+				last = c-'0';
 			}
 		}
 		ans += first * 10 + last;
 	}
-	cout << ans;
+	cout << ans << '\n';
 }
 
 void part2() {
@@ -24,7 +24,7 @@ void part2() {
 	string numbers[]{ "zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine" };
 	INPUT(line) {
 		int first = 0, last = 0;
-		FOR(i, 0, size(line)) {
+		FOR(i, 0, line.size()) {
 			int digit = 0;
 			if (isdigit(line[i]))
 				digit = line[i] - '0';
@@ -40,9 +40,9 @@ void part2() {
 				last = digit;
 			}
 		}
-		ans += first * 10 + last;
+		ans += first*10 + last;
 	}
-	cout << ans;
+	cout << ans << '\n';
 }
 
 int main() {

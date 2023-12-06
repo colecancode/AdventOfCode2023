@@ -22,7 +22,7 @@ void part1() {
 				value *= 2;
 		ans += value/2;
 	}
-	cout << ans;
+	cout << ans << '\n';
 }
 
 void part2() {
@@ -55,7 +55,7 @@ void part2() {
 			--matches;
 		}
 	}
-	cout << ans;
+	cout << ans << '\n';
 }
 
 void main() {
