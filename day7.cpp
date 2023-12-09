@@ -40,9 +40,9 @@ void solve(int part) {
 		int bid; ss >> bid;
 		hands.push_back({ score(hand, part), bid });
 	}
-	sort(begin(hands), end(hands));
+	sort(hands.begin(), hands.end());
 	int ans = 0;
-	FOR(rnk, 1, size(hands)+1)
+	FOR(rnk, 1, hands.size()+1)
 		ans += rnk * hands[rnk-1].second;
 	cout << ans << '\n';
 }

@@ -16,7 +16,7 @@ void part1() {
 		best.push_back(b);
 
 	int ans = 1;
-	for (int i = 0; i < size(time); ++i) {
+	for (int i = 0; i < time.size(); ++i) {
 		double discriminant = sqrt(time[i] * time[i] - 4 * best[i]);
 		int high = ceil((time[i] + discriminant) / 2) - 1;
 		int low = floor((time[i] - discriminant) / 2) + 1;

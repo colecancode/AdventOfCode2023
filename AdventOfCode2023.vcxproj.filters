@@ -45,6 +45,9 @@
     <ClCompile Include="day7.cpp">
       <Filter>Source Files\c++</Filter>
     </ClCompile>
+    <ClCompile Include="day8.cpp">
+      <Filter>Source Files\c++</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="template.py">
@@ -69,6 +72,9 @@
       <Filter>Source Files\python</Filter>
     </None>
     <None Include="day1golf.py">
+      <Filter>Source Files\python</Filter>
+    </None>
+    <None Include="day7.py">
       <Filter>Source Files\python</Filter>
     </None>
   </ItemGroup>
