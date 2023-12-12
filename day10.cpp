@@ -72,7 +72,7 @@ void solve(int part) {
 	}
 }
 
-void main() {
+int main() {
 	solve(1);
 	solve(2);
 }

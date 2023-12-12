@@ -36,7 +36,7 @@ void solve(int value) {
 	cout << ans << '\n';
 }
 
-void main() {
+int main() {
 	solve(2);
 	solve(1000000);
 }

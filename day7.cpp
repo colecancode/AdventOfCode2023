@@ -47,7 +47,7 @@ void solve(int part) {
 	cout << ans << '\n';
 }
 
-void main() {
+int main() {
 	solve(1);
 	solve(2);
 }

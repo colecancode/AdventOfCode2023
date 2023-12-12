@@ -75,7 +75,7 @@ void part2() {
 	cout << ans << '\n';
 }
 
-void main() {
+int main() {
 	part1();
 	part2();
 }

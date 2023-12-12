@@ -106,7 +106,7 @@ void part2() {
 	cout << min_element(begin(seeds), end(seeds))->first << '\n';
 }
 
-void main() {
+int main() {
 	part1();
 	part2();
 }

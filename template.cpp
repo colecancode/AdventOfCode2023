@@ -11,7 +11,7 @@ void part2() {
 	
 }
 
-void main() {
+int main() {
 	part1();
 	part2();
 }
