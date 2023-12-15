@@ -63,6 +63,12 @@
     <ClCompile Include="day13.cpp">
       <Filter>Source Files\c++</Filter>
     </ClCompile>
+    <ClCompile Include="day14.cpp">
+      <Filter>Source Files\c++</Filter>
+    </ClCompile>
+    <ClCompile Include="day15.cpp">
+      <Filter>Source Files\c++</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="template.py">
@@ -110,11 +116,19 @@
     <None Include="day13.py">
       <Filter>Source Files\python</Filter>
     </None>
-    <None Include="cpp.hint" />
+    <None Include="day14.py">
+      <Filter>Source Files\python</Filter>
+    </None>
+    <None Include="day15.py">
+      <Filter>Source Files\python</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Text Include="f">
       <Filter>Source Files\python</Filter>
+    </Text>
+    <Text Include="in.txt">
+      <Filter>Source Files</Filter>
     </Text>
   </ItemGroup>
 </Project>
