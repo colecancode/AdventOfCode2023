@@ -75,6 +75,12 @@
     <ClCompile Include="day17.cpp">
       <Filter>Source Files\c++</Filter>
     </ClCompile>
+    <ClCompile Include="day18.cpp">
+      <Filter>Source Files\c++</Filter>
+    </ClCompile>
+    <ClCompile Include="day19.cpp">
+      <Filter>Source Files\c++</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="template.py">
@@ -132,6 +138,12 @@
       <Filter>Source Files\python</Filter>
     </None>
     <None Include="day17.py">
+      <Filter>Source Files\python</Filter>
+    </None>
+    <None Include="day18.py">
+      <Filter>Source Files\python</Filter>
+    </None>
+    <None Include="day19.py">
       <Filter>Source Files\python</Filter>
     </None>
   </ItemGroup>
