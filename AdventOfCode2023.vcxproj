@@ -153,7 +153,10 @@
     <ClCompile Include="day21.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="day22.cpp" />
+    <ClCompile Include="day22.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="day23.cpp" />
     <ClCompile Include="day3.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
@@ -202,6 +205,7 @@
     <None Include="day20.py" />
     <None Include="day21.py" />
     <None Include="day22.py" />
+    <None Include="day23.py" />
     <None Include="day3.py" />
     <None Include="day4.py" />
     <None Include="day5.py" />
