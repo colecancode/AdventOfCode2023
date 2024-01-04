@@ -209,6 +209,7 @@
     <None Include="day22.py" />
     <None Include="day23.py" />
     <None Include="day24.py" />
+    <None Include="day25.py" />
     <None Include="day3.py" />
     <None Include="day4.py" />
     <None Include="day5.py" />

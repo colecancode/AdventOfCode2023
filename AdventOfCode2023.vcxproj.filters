@@ -173,6 +173,9 @@
     <None Include="day24.py">
       <Filter>Source Files\python</Filter>
     </None>
+    <None Include="day25.py">
+      <Filter>Source Files\python</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Text Include="f">
